@@ -10,8 +10,4 @@ This distribution retains the public copyright notices required by upstream code
 | Equiformer V2 | atomicarchitects/equiformer_v2, source revision `cf45ee209abdceaa606c9a8dce50c9c753d470b2` | Network and energy-inference dependencies; model registration removed |
 | Open Catalyst | Utilities accompanying the Equiformer V2 source | Periodic graph construction, base model and radial functions |
 
-The rotation constants distributed as JSON are fixed mathematical matrices used by the equivariant representation. They are not learned parameters or research data; the original tensor container has been converted to text. All trained model files remain external.
-
-Adaptations add explicit model metadata, portable paths, data-free sampling conditions, configurable species constraints, generic property recipes, and a persistent predictor process. The joint generator parameter names are retained for strict state-dictionary loading. MACE keeps canonical module paths for serialized-model compatibility. Supported MACE energy model classes are `MACE` and `ScaleShiftMACE`; the subset does not claim support for every upstream model family.
-
 License texts are in `licenses/`. Original notices remain in the corresponding source files.
