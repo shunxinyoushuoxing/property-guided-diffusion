@@ -1,8 +1,6 @@
 # Property Guided Diffusion
 
-Property Guided Diffusion (PGD) uses a frozen structural diffusion model as a local search operator and a separate frozen property predictor to guide selection. Each iteration partially noises parent structures, generates candidate structures by reverse diffusion, accepts improving candidates, and resamples the population. Composition-based fitness sharing reduces concentration around similar candidates.
-
-The implementation includes joint coordinate/lattice/discrete-species diffusion, population search, template mapping, energy-to-property evaluation, and MACE and Equiformer V2 predictors.
+Property Guided Diffusion (PGD) uses a frozen structural diffusion model as a local search operator and a separate frozen property predictor to guide selection. Each iteration partially noises parent structures, generates candidate structures by reverse diffusion, accepts improving candidates, and resamples the population.
 
 ## Installation
 
