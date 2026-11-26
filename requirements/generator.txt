@@ -1,0 +1,5 @@
+numpy>=1.26,<3
+scipy>=1.12,<2
+ase>=3.22,<4
+# Install PyTorch 2.4 and matching binary graph extensions separately.
+torch-geometric>=2.5,<3

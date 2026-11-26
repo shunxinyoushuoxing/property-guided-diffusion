@@ -1,0 +1,9 @@
+numpy>=1.26,<3
+scipy>=1.12,<2
+ase>=3.22,<4
+e3nn==0.4.4
+opt_einsum_fx==0.1.4
+opt_einsum>=3.3
+sympy>=1.12
+matscipy>=1.1,<2
+# Install PyTorch 2.4 separately. MACE model code is bundled in vendor/.

@@ -1,0 +1,24 @@
+{
+  "checkpoint": "private_inputs/generator.ckpt",
+  "model_metadata": "private_inputs/model.json",
+  "symmetry": "private_inputs/symmetry.json",
+  "predictor_config": "private_inputs/predictor.json",
+  "device": "cpu",
+  "output": "outputs/run_001",
+  "samples": 1,
+  "search": {
+    "population": 20,
+    "candidates": 5,
+    "iterations": 20,
+    "noise_start": 400,
+    "noise_end": 400,
+    "anchor_mode": "independent",
+    "objective": "minimize",
+    "resampling": "diverse",
+    "beta": 2.0,
+    "elites": 4,
+    "sharing_radius": 0.15,
+    "min_distance": 0.5,
+    "seed": 0
+  }
+}
